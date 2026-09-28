@@ -1,23 +1,75 @@
 aid: biosapieninc
+
 name: Biosapieninc
-description: 'Biosapieninc is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/6a8690368ecef6c1c1b3bf22/6aa2a567cae80f43fa3e4e6e_Open%20Graph.png
+
+description: 'BioSapien Inc. develops localized cancer therapy technologies, including the biodegradable MediChip™ implant that delivers sustained cytotoxic treatment directly at tumor sites. Based in San Diego with operations in Abu Dhabi, the company focuses on precision oncology, in‑house manufacturing, and partnerships to advance targeted cancer treatments.'
+
 url: https://raw.githubusercontent.com/api-evangelist/biosapieninc/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
 - Company
-apis: []
+- Biotechnology
+- Oncology
+- Healthcare
+- PrecisionMedicine
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/biosapieninc-llms.txt
+- type: Hosts
+  url: hosts/biosapieninc-hosts.yml
+- type: Vendors
+  url: vendors/biosapieninc-vendors.yml
+- type: Newsroom
+  url: https://www.biosapien.com/news
+- type: DomainSecurity
+  url: security/biosapieninc-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/biosapieninc
+  url: https://www.biosapien.com
+- type: Contact
+  url: https://www.biosapien.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.biosapien.com/privacy-policy
+- type: TermsOfService
+  url: https://www.biosapien.com/terms-and-conditions
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-28'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://equityzen.com/company/biosapieninc
+    status: 403
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,29 @@
+# BioSapien
+
+> BioSapien develops localized drug delivery platforms for oncology. Its MediChip™ technology is a biodegradable, 3D-printed implant designed to deliver sustained cancer therapy directly at the tumor bed.
+
+Website: https://www.biosapien.com/
+
+## About BioSapien
+
+BioSapien is developing localized oncology treatments designed to deliver therapy directly where it is needed. Its approach focuses on sustained drug release at the tumor bed rather than conventional systemic delivery.
+
+## MediChip™
+
+MediChip™ is BioSapien's biodegradable, 3D-printed implant designed for localized cancer therapy.
+
+Key features described on BioSapien's website:
+- Direct placement at the tumor bed.
+- Sustained drug delivery over 28 days from a single placement.
+- An adaptable delivery platform designed to accommodate different therapeutic drugs.
+
+## Official Pages
+
+- [Homepage](https://www.biosapien.com/): Overview of BioSapien, MediChip™ and localized cancer therapy.
+- [News & Updates](https://www.biosapien.com/news): Company announcements, press releases, publications, media coverage and awards.
+- [Partnerships](https://www.biosapien.com/partnerships): Information about partnership opportunities.
+- [Contact Us](https://www.biosapien.com/contact-us): Official company contact page.
+
+## Official Social Profile
+
+- LinkedIn: https://www.linkedin.com/company/biosapieninc/
